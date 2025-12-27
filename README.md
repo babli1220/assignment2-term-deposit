@@ -1,13 +1,27 @@
-# Term Deposit Subscription Analysis (Assignment 2)
+# Term Deposit Subscription Analysis
 
-R project for analysing a bank marketing campaign dataset and predicting term deposit subscription.
+This project analyses a bank marketing campaign dataset to identify factors
+associated with customer subscription to term deposits.
 
-## How to run
+## Project Overview
+- Dataset: Bank marketing campaign data
+- Objective: Predict likelihood of term deposit subscription
+- Methodology:
+  - Data cleaning and preprocessing
+  - Exploratory data analysis and visualisation
+  - Measures of association
+  - Logistic regression modelling
+  - Model evaluation using accuracy, sensitivity and pseudo R²
+
+## Tools & Libraries
+- R (glm, caret, ggplot2, psych)
+- Logistic regression (binomial family)
+
+## How to Run
 1. Open the R script in RStudio
-2. Set working directory (if needed)
-3. Run the script top to bottom
+2. Set the working directory
+3. Run the script from top to bottom
 
-## Outputs
-- Visualisations (ggplot2)
-- Logistic regression models
-- Confusion matrices and accuracy comparison
+## Notes
+- Dataset not included due to academic restrictions
+- This repository is for educational purposes only
